@@ -1540,6 +1540,7 @@ ul.pagination .active a {
   padding: 25px 30px 30px;
   margin-bottom: 30px;
   border-radius: 2px;
+  width: 100%;
 }
 
 .widget .widget-header {
@@ -2480,4 +2481,8 @@ article.single-post p {
   text-decoration: none;
 }
 
+.section-up {
+  padding: 0;
+  margin-top: -35px;
+}
 /*# sourceMappingURL=maps/style.css.map */

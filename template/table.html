@@ -1,0 +1,12 @@
+<table class="table table-striped">
+<thead>
+	<th th:each="head : ${table[0]}" th:text="${head}">
+		Head
+	</th>
+</thead>
+<tbody>
+	<tr th:each="row, iter : ${table}">
+		<td th:each="col: ${row}" th:text="${col}" th:if="${iter.index>0}">td</td>
+	</tr>
+</tbody>
+</table>
